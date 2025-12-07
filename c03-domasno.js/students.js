@@ -1,3 +1,4 @@
+
 const studenti = [
   { ime: "Bojan", prosek: 7.5, grad: "Skopje" },
   { ime: "Pero", prosek: 8.3, grad: "Bitola" },
@@ -10,6 +11,8 @@ const studenti = [
   { ime: "Natasha", prosek: 8.1, grad: "Skopje" },
   { ime: "Stanko", prosek: 7.2, grad: "Strumica" },
 ];
+
+module.exports = studenti;
 
 // 1. Сите студенти од Скопје чие име завршува на а и имаат просек над 7, подредени по име (растечки).
 // 2. Сите студенти кои имаат просек над 9 и не се од Скопје, подредени по просек опаѓачки.
